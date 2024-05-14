@@ -22,7 +22,7 @@ for (las_file in las_files){
   base = fs::path_ext_remove(fs::path_file(las_file))          #plotname
   
   Punktwolke = readLAS(las_file)                               #las einlesen
-  t = quantile(Punktwolke$Intensity,probs = c(0.05))           #treshold festlegen
+  t = quantile(Punktwolke$Intensity,probs = c(0.08))           #treshold festlegen
   Punktwolke_filtered = filter_poi(Punktwolke, Intensity >= t) #filtern
   
   pfad_output = paste0(output_folder, base, ".laz")            # pfad konstruieren

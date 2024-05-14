@@ -11,7 +11,7 @@ library(rgdal)
 #_______________________________________________________________________________
 
 # Define file paths
-Pfad <- "M:/Masterarbeit/TLS/Scans_010_clipped_exakt/pinocchio01.laz"
+Pfad <- "M:/Masterarbeit/TLS/Scans_010_clipped_filtered_classified/enrique01_classified.laz"
 #Pfad_ROI <- "M:/Masterarbeit/TLS/Polygon aus Stangen/las_animas01.shp"
 
 
